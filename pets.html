@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adoptable Pets</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff5722;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .container {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      padding: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .container:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .container img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .container h2 {
+      margin: 10px 0 5px;
+      font-size: 1.3rem;
+      color: #333;
+    }
+
+    .container p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .container button {
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: 0.3s;
+    }
+
+    .container button:hover {
+      background-color: #e64a19;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐾 Adoptable Pets</h1>
+
+  <div class="grid">
+
+    <div class="container">
+      <h2>Bella</h2>
+      <img src="https://place-puppy.com/300x300" alt="Bella the dog" />
+      <p>A loving, playful companion looking for a forever home!</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Max</h2>
+      <img src="https://place-puppy.com/301x301" alt="Max the dog" />
+      <p>Energetic and loyal. Max loves outdoor adventures!</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Luna</h2>
+      <img src="https://placekitten.com/300/300" alt="Luna the cat" />
+      <p>Sweet and calm. Luna enjoys quiet time and cuddles.</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Charlie</h2>
+      <img src="https://place-puppy.com/302x302" alt="Charlie the dog" />
+      <p>A goofy, friendly pup who loves to make people smile.</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Milo</h2>
+      <img src="https://placekitten.com/301/301" alt="Milo the cat" />
+      <p>Curious and clever, Milo is always exploring new places.</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Daisy</h2>
+      <img src="https://place-puppy.com/303x303" alt="Daisy the dog" />
+      <p>Gentle and calm, Daisy is the perfect lap dog.</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Oliver</h2>
+      <img src="https://placekitten.com/302/302" alt="Oliver the cat" />
+      <p>This little furball is full of personality and charm!</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+    <div class="container">
+      <h2>Rocky</h2>
+      <img src="https://place-puppy.com/304x304" alt="Rocky the dog" />
+      <p>Brave and strong, Rocky is ready for big adventures.</p>
+      <a href="adopt.html"><button>Adopt Me</button></a>
+    </div>
+
+  </div>
+
+</body>
+</html>

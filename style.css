@@ -1,0 +1,19 @@
+.button-container {
+  background-color: #2196F3; /* blue background */
+  padding: 1.5em;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1.5em;
+}
+
+.button-container .btn {
+  background-color: #ffffff;
+  color: #2196F3;
+  border: 2px solid #ffffff;
+  font-weight: bold;
+}
+
+.button-container .btn:hover {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
